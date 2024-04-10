@@ -3,7 +3,7 @@
 .PHONY: run_website install_kind install_kubectl create_kind_cluster \
 	create_docker_registry connect_registry_to_kind_network \
 	connect_registry_to_kind create_kind_cluster_with_registry \
-	delete_kind_cluster delete_kind_cluster
+	delete_kind_cluster delete_kind_cluster kind
 
 run_website:
 	docker build -t explorecalifornia.com . && \
