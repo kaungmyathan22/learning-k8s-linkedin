@@ -3,7 +3,7 @@ apiVersion: kind.x-k8s.io/v1alpha4
 containerdConfigPatches:
   - |-
     [plugins."io.containerd.grpc.v1.cri".registry.mirrors."localhost:3000"]
-      endpoint = ["http://local-registry:5000"]
+      endpoint = ["http://local-registry:3000"]
 nodes:
   - role: control-plane
     kubeadmConfigPatches:
