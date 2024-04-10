@@ -6,7 +6,7 @@ metadata:
   namespace: development
 spec:
   selector:
-    app: pod-info
+    app: backend-server
   ports:
     - port: 80
       targetPort: 3000
